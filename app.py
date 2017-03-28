@@ -98,7 +98,7 @@ def makeWebhookResult(data):
         # "contextOut": [],
         #"source": "apiai-weather-webhook-sample"
         #}
-        {
+        #{
   "messages": [
     {
       "type": 0,
@@ -111,7 +111,7 @@ def makeWebhookResult(data):
   ]
 }
 
-    }
+
 
 
 if __name__ == '__main__':
