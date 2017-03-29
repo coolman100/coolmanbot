@@ -91,13 +91,12 @@ def makeWebhookResult(data):
     print(speech)
 
     return {
-
-        {"speech": speech,
+       "speech": speech,
         "displayText": speech,
         "source": "apiai-weather-webhook-sample"
         }
 
-    }
+
 
 
 if __name__ == '__main__':
